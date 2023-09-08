@@ -1,14 +1,12 @@
 # Swisstronik Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Hardhat use case. It is a simple contract that writes and reads a message, and a script that deploys that contract.
 
 Try running some of the following tasks:
 
 ```shell
 npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
-# learnweb3Bounty
+
