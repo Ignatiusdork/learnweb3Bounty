@@ -5,6 +5,7 @@ This project demonstrates a basic Hardhat use case. It is a simple contract that
 Try running some of the following tasks:
 
 ```shell
+npx hardhat compile
 npx hardhat run scripts/deploy.js --network swisstronik
 npx hardhat run scripts/setMessage.js --network swisstronik
 npx hardhat run scripts/getMessage.js --network swisstronik
