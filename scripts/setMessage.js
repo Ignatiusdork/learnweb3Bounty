@@ -12,7 +12,7 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
   });
 };
 
-// function to set or write the message to the contract
+// function to set or write the message to the deployed contract
 async function main() {
   const contractAddress = "0x522649177ec0AB8b429a00f848018E91b8B4D16e";
   const [signer] = await hre.ethers.getSigners();
