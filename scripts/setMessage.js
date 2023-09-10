@@ -1,6 +1,7 @@
 const hre = require("hardhat");
 const { encryptDataField, decryptNodeResponse } = require("@swisstronik/swisstronik.js");
 
+// Defind a shilded transaction instance
 const sendShieldedTransaction = async (signer, destination, data, value) => {
   const rpclink = hre.network.config.url;
   const [encryptedData] = await encryptDataField(rpclink, data);
