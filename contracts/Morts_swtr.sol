@@ -13,7 +13,7 @@ contract Swisstronik {
     }
 
     /**
-     * @dev setMessage() updates the stored message in the contract
+     * @dev setMessage() updates the stored message in the  deployed contract
      * @param _message the new message to replace the existing one
      */
     function setMessage(string memory _message) public {
