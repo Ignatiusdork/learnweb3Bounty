@@ -2,7 +2,7 @@
 pragma solidity ^0.8.19;
 
 contract Swisstronik {
-    // message 
+    // message to be passed
     string private message;
 
     /**
